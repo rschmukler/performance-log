@@ -1,10 +1,11 @@
 {
   "name": "performance-log",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Performance logging for node applications",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist/"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/rschmukler/performance-log/issues"
   },
-  "homepage": "https://github.com/rschmukler/performance-log#readme"
+  "homepage": "https://github.com/rschmukler/performance-log#readme",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "performance-now": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel": "^5.5.3"
+  }
 }
