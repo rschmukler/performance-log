@@ -1,0 +1,23 @@
+{
+  "name": "performance-log",
+  "version": "1.0.0",
+  "description": "Performance logging for node applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rschmukler/performance-log.git"
+  },
+  "keywords": [
+    "performance",
+    "logging"
+  ],
+  "author": "Ryan Schmukler <ryan@slingingcode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rschmukler/performance-log/issues"
+  },
+  "homepage": "https://github.com/rschmukler/performance-log#readme"
+}
